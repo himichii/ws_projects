@@ -1,0 +1,115 @@
+#container{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(to left,var(--dcol2),var(--dcol3),var(--dcol4));
+    float: left;
+}
+#calc_container{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:350px;
+    height: 326px;
+    background-color: var(--lcol2);
+    box-shadow: 0px 6px 6px var(--dcol4);
+    padding: 6px;
+    border: 3px solid var(--mcol4);
+    border-radius: 3px;
+}
+#num_display{
+    width:100%;
+    height: 42px;
+    border:none;
+    background-color: var(--lcol2);
+    color: var(--dcol1);
+    border:1px solid var(--lcol4);
+    font-size: 1.3em;
+    text-align: right;
+    padding: 0px 11px;
+    outline: none;
+    margin: 3px 0px;
+    float: left;
+    cursor: default;
+}
+#buttons{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: inherit;
+    margin-top: 3px;
+    float: left;
+}
+#buttons tr td{
+    padding: 2px;
+}
+#buttons tr td:first-child{
+    padding-left: 0px;
+}
+#buttons tr td:last-child{
+    padding-right: 0px;
+}
+#buttons tr td button{
+    width: 100%;
+    height: 46px;
+    background-color: var(--lcol3);
+    color: var(--dcol2);
+    font-size: 1.3em;
+    border-radius: 3px;
+    border:0px solid var(--lcol3);
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+#buttons tr td button:hover{
+    background-color: var(--lcol4);
+}
+#buttons tr td button:active{
+    opacity: 0.9;
+}
+#buttons tr td #b_equ{
+    background-color: var(--dcol2);
+    color: var(--lcol2);
+}
+#buttons tr td #b_equ:hover{
+    background-color: var(--mcol4);
+}
+#buttons tr td #b_equ:active{
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

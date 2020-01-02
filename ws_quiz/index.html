@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz -Webship</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="quiz">
+        <!--quiz quiz screen-->
+        <div id="quiz-quiz-cont" style="display: grid;">
+            <div id="quiz-header">
+                <span id="retry_but" class="quiz-header-but"><i class="fas fa-redo"></i></span>
+                <span id="show_ans_but" class="quiz-link-but">show answer</span>
+            </div>
+            <div id="quiz-title">
+                <h4 id="quiz_title">How Much Does It Take To Make It</h4>
+            </div>
+            <div id="quiz-body">
+                <div id="quiz-img-cont"><img id="quiz_img" src="imgs/img1.jpg"></div>
+                <div id="quiz-choices-cont">
+                    <!--<span class="quiz-choice-but">200 Years</span>
+                    <span class="quiz-choice-but">400 Years</span>
+                    <span class="quiz-choice-but">1000 Years</span>-->
+                </div>
+            </div>
+        </div>
+        <!--quiz res screen-->
+        <div id="quiz-res-cont" style="display: none;">
+            <div id="score-outer-cont"><div id="score-cont">10/10</div></div>
+            <div id="quiz-res-retry-but"><i class="fas fa-redo"></i></div>
+            <span id="quiz_res_info1" class="quiz-res-info">No <span class="txt-success">info</span> for now</span>
+            <span id="quiz_res_info2" class="quiz-res-info">No <span class="txt-danger">info</span> for now</span>
+        </div>
+    </div>
+    
+    <script src="core.js" defer></script>
+</body>
+</html>
